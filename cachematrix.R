@@ -45,9 +45,6 @@ m <- solve(data) # we solve it
 x$setInv(m) # we then set it to the object
 m # return the solved result
   }
-  mat <- x$get()
-  inv <- solve(mat, ...)
-  x$setInverse(inv)
-  inv
+  
   
 
